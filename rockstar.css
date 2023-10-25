@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+.my-icon{
+    color:white;
+    font-size:30px;
+}
+.butn{
+    padding: 15px 60px;
+     
+}
+.butn:hover{
+    background-color: rgb(236, 155, 24);
+}
+@media all and (max-width: 576px) {
+    .butn {
+      padding: 10px 80px;
+    }
+  }
+
+    .underline-button {
+        border: none;
+        border-bottom: 5px solid  rgb(236, 155, 24);
+        box-shadow: none;
+    }
+    .underline-button:hover {
+        background-color:rgb(236, 155, 24) ;
+        border: none;
+        border-bottom: 5px solid  rgb(236, 155, 24);
+        box-shadow: none;
+        
+    }
+    .footerlist{
+        list-style-type: none;
+        display:flex;
+        
+    }
+    .dropdown-button {
+        background-color: black;
+        color: white;
+        padding: 22px;
+        border: none;
+        text-align: left;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    
+    .dropdown-button:hover {
+        background-color: rgb(128, 128, 128);
+        transition: 1s;
+    }
+    
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        top: 50px;
+        right: 0;
+    }
